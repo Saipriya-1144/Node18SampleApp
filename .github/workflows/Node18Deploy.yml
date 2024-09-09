@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: NodeAppSample
+  AZURE_WEBAPP_NAME: lwasv2-beta-node-18-githubActions
   AZURE_WEBAPP_PACKAGE_PATH: "./publish"
 
 jobs:
@@ -59,6 +59,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'NodeAppSample'
+          app-name: 'lwasv2-beta-node-18-githubActions'
           package: .
 
