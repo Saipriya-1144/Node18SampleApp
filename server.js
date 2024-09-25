@@ -15,7 +15,7 @@ app.get('/dummy', (req, res) => {
 
 app.get('/placeholder', (req, res) => {
     console.log('Placeholder endpoint called!');
-    res.send('<<<node-place-holder>>>');
+    res.send('e56db6ad-8263-4c1b-bd86-c616deecc17a');
 })
 
 app.listen(port, () => console.log('Listening on port %s', port));
