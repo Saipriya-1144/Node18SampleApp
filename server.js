@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     console.log('Hello endpoint called!');
-    res.send('Hello from NodeJs App, HIIIIII!')
+    res.send('Hello from NodeJs App, HIIIIII helloooooo!')
 })
 
 app.get('/dummy', (req, res) => {
